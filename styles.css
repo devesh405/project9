@@ -10,10 +10,10 @@
   .stores{
     box-sizing:border-box;
     display: grid;
-    grid-template-columns: 25% 25% 25% ;
+    grid-template-columns: 27% 27% 27% ;
     grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px  ;
     column-gap: 150px;
-    row-gap: 400px;
+    row-gap: 600px;
     text-align: justify;
   }
   .store{
@@ -29,18 +29,18 @@
   }
   .store-one{
     width:100%;
-    height:  130%;
+    height:  140%;
     padding-bottom: 1rem;
   }
 .store-two{
   width: 100%;
-  height: 130%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 
 .store-three{
-  width: 105%;
-  height: 130%;
+  width: 100%;
+  height: 140%;
   padding-bottom: 1rem;
 }
  
@@ -67,18 +67,18 @@ padding-bottom: 1rem;
 }
 
 .store-six{
-  width: 105%;
-  height: 130%;
+  width: 100%;
+  height: 140%;
 padding-bottom: 1rem;
 }
 .store-nine{
-  width: 105%;
+  width: 100%;
   height: 140%;
   padding-bottom: 1rem;
 }
 .store-ten{
   width: 100%;
-  height: 130%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-eleven{
@@ -87,132 +87,157 @@ padding-bottom: 1rem;
   padding-bottom: 1rem;
 }
 .store-twelve{
-  width: 105%;
+  width: 100%;
   height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirteen{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-fourteen{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-fifteen{
-  width: 105%;
-  height: 145%;
+  width: 100%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-sixteen{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-seventeen{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-eighteen{
-  width: 105%;
-  height: 145%;
+  width: 100%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-nineteen{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twenty{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twentyone{
-    width: 105%;
-    height: 145%;
+    width: 100%;
+    height: 140%;
     padding-bottom: 1rem;
 }
 .store-twentytwo{
     width: 100%;
-    height: 145%;
+    height: 140%;
     padding-bottom: 1rem;
 }
 .store-twentythree{
     width: 100%;
-    height: 145%;
+    height: 140%;
     padding-bottom: 1rem;
 }
 .store-twentyfour{
     width: 100%;
-    height: 145%;
+    height: 140%;
     padding-bottom: 1rem;
 }
 .store-twentyfive{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twentysix{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twentyseven{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twentyeight{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-twentynine{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirty{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtyone{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtytwo{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtythree{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtyfour{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtyfive{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtysix{
   width: 100%;
-  height: 145%;
+  height: 140%;
   padding-bottom: 1rem;
 }
 .store-thirtyseven{
     width: 105%;
-    height: 145%;
+    height: 140%;
     padding-bottom: 1rem;
+}
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 16px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cart {
+  border: 2px solid #FBCB0A;
+  background-color: #F2EBE9;
+  color: #FBCB0A;
+  transition-duration: 0.2s;
+}
+
+.cart:hover {
+  background-color: #FBCB0A;
+  color: white;
 }
